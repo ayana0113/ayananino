@@ -1,0 +1,170 @@
+/* 
+スマホスタイル
+ */
+body{
+  font-family: 'Noto SAns JP',sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+h1{
+  font-size: 34px;
+  border: solid 1px;
+  margin: 19.5px 0px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 > a{
+  text-decoration: none;
+}
+
+h1 > a:link{
+  color: #0d0d0d;
+}
+
+h1 > a:visited{
+  color: #0d0d0d;
+}
+
+h1 > a:hover{
+  color: #0d0d0d;
+}
+
+h1 > a:active{
+  color: #0d0d0d;
+}
+
+img{
+  width: 100%;
+}
+
+.menu{
+  font-size: 34px;
+  text-align: right;
+  font-weight: bold;
+  margin: 19.5px 0px;
+  padding: 10px;
+}
+
+.menu > a{
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.menu > a:link{
+  color: #0d0d0d;
+}
+
+.menu > a:visited{
+  color: #0d0d0d;
+}
+
+.menu > a:hover{
+  color: #0d0d0d;
+}
+
+.menu > a:active{
+  color: #0d0d0d;
+}
+
+
+
+/* カメラ画像 */
+.camera{
+  width: 100%;
+}
+
+.kazuki{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #999;
+  padding: 3px;
+}
+
+h2{
+  text-align: center;
+  font-size: 34px;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.About2{
+  display: flex;
+  justify-content: center;
+}
+
+.aboutlist{
+  padding-left: 16px;
+}
+
+ul{
+  list-style: none;
+}
+.name{
+  font-size: 18px;
+ text-align: right;
+}
+
+.Works{
+  text-align: center;
+}
+
+.Works2{
+  justify-content: center;
+  margin: 0 auto;
+}
+
+p{
+  font-size: 18px;
+  text-align: center;
+}
+
+.Worksphoto{
+  width: 250px;
+  height: 185px;
+}
+
+.photo{
+  padding: 0.5rem;
+  width: 250px;
+  height: 300px;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* スマホ仕様 */
+
+
+
+
+/* パソコン仕様 */
+@media(min-width: 768px){
+  .Works2{
+    display: flex;
+   justify-content: space-around;
+  }
+}
